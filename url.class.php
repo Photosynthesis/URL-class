@@ -14,6 +14,8 @@
     in proprietary applications, versions under more permissive licenses can
     be provided. Write to adam@photosynth.ca.
     
+    Suggestions and feedback are welcome.
+    
     Copyright (C) 2013  A. McKenty
 
     This program is free software; you can redistribute it and/or modify
@@ -67,7 +69,7 @@ class url{
       $query_str = $this->query_sep;
       $between = '';
       foreach ($query_parts as $key=>$value) {
-      	$query_str .= $between.$key.'='.$value;
+          $query_str .= $between.$key.'='.$value;
       	$between = '&';
       }
       $append_with = '&';
