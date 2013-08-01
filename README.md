@@ -3,7 +3,7 @@ URL-class
 
 A handy PHP class for managing target URLs and jumping over many of the common pitfalls of intra-application hyperlinks. Cool stuff.
 
-http://www.photosynth.ca/code/url
+More info can be found here: http://www.photosynth.ca/code/url
 
 This class allows a streamlined way of managing target URLs in web
 applications. It parses the URL of the current page and breaks it down
@@ -14,10 +14,11 @@ values as needed.
 
 This class is released under the GPL license. If you would like to use it
 in proprietary applications, versions under more permissive licenses can
-be provided. Write to adam@photosynth.ca.
+be provided. Write to **adam@photosynth.ca.**
 
 USAGE:
 
+```php
 <?php
 
 $url = new url();
@@ -54,3 +55,4 @@ $url->set_query_pair('page_id',5);
 $url->define_constants();
 
 ?>
+```
