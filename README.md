@@ -3,8 +3,6 @@ URL-class
 
 A handy PHP class for managing target URLs and jumping over many of the common pitfalls of intra-application hyperlinks. Cool stuff.
 
-More info can be found here: http://www.photosynth.ca/code/url
-
 This class allows a streamlined way of managing target URLs in web
 applications. It parses the URL of the current page and breaks it down
 into its constituent parts. These parts can then be individually and
