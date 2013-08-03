@@ -113,3 +113,12 @@ URL: https://www.somesite.com/directory/directory2/thefile?page_id=20&action=sav
 </tr>
 </table>
 
+### Object properties
+
+| Property        | Example value  |
+| :------------- |:-------------|
+| domain_parts     | array('www','somesite','com') |
+| path_parts     | array('directory','directory2') |
+| query_parts | array('page_id' => 20,'action'=>'save') |
+| protocol | https:// |
+
