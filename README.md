@@ -57,27 +57,59 @@ $url->define_constants();
 
 Example: 
 URL: https://www.somesite.com/directory/directory2/thefile?page_id=20&action=save
+
+### Constants and methods
+
 <table>
 <tr>
-<th>function</th><th>constant</th><th>result</th>
+    <th>function</th>
+    <th>constant</th>
+    <th>result</th>
 </tr>
 <tr>
-<td>get()</td><td>URL</td><td>https://www.somesite.com/directory/directory2/thefile?page_id=20&action=save</td>
-<td>url_no_query()</td><td>URL_NQ</td><td>https://www.somesite.com/directory/directory2/thefile</td>
-<td>path()</td><td>URL_PATH</td><td>directory/directory2</td>
-<td>file()</td><td>URL_FILE</td><td>thefile</td>
-<td>query_str()</td><td>URL_Q</td><td>?page_id=20&action=save</td>
-<td>get()</td><td>URL</td><td></td>
-<td>get()</td><td>URL</td><td></td>
-
+    <td>get()</td>
+    <td>URL</td>
+    <td>https://www.somesite.com/directory/directory2/thefile?page_id=20&action=save</td>
+</tr>
+<tr>
+    <td>url_no_query()</td>
+    <td>URL_NQ</td>
+    <td>https://www.somesite.com/directory/directory2/thefile</td>
+</tr>
+<tr>
+    <td>path()</td>
+    <td>URL_PATH</td>
+    <td>directory/directory2</td>
+</tr>
+<tr>
+    <td>file()</td>
+    <td>URL_FILE</td>
+    <td>thefile</td>
+</tr>
+<tr>
+    <td>query_str()</td>
+    <td>URL_Q</td>
+    <td>?page_id=20&action=save</td>
+</tr>
+<tr>
+    <td>relative_url()</td>
+    <td>URL_R</td>
+    <td>directory/directory2/thefile?page_id=20&action=save</td>
+</tr>
+<tr>
+    <td>relative_url_no_query()</td>
+    <td>URL_RNQ</td>
+    <td>directory/directory2/thefile</td>
+</tr>
+<tr>
+    <td>full_domain()</td>
+    <td>URL_DM</td>
+    <td>www.somesite.com</td>
+</tr>
+<tr>
+    <td>long_domain()</td>
+    <td>URL_LDM</td>
+    <td>https://www.somesite.com</td>
 </tr>
 </table>
-    define(URL,$this->get());
-    define(URL_NQ,$this->url_no_query());
-    define(URL_PATH,$this->path());
-    define(URL_FILE,$this->file());
-    define(URL_Q,$this->query_str());
-    define(URL_R,$this->relative_url());
-    define(URL_RNQ,$this->relative_url_no_query());
-    define(URL_DM,$this->full_domain());
-    define(URL_LDM,$this->long_domain());
+
