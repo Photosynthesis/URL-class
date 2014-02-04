@@ -21,7 +21,9 @@ USAGE:
 
 $url = new url();
 
-// On instantiation, the class detects and parses the current URL as seen by the browser (keep in mind this can be completely different than the file path, especially when URL rewriting is used. We're only concerned with client side URLS here).
+// On instantiation, the class detects and parses the current URL as seen by the browser 
+(keep in mind this can be completely different than the file path, especially when URL rewriting is used. 
+We're only concerned with client side URLS here).
 
 // Output the url
 
